@@ -76,12 +76,6 @@ class ReviewProductController extends Controller
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\ReviewProducts  $reviewProducts
-     * @return \Illuminate\Http\Response
-     */
     public function edit(ReviewProducts $reviewProducts)
     {
         //

@@ -151,13 +151,6 @@ class TransactionController extends Controller
         return redirect()->back();
     }
 
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Transactions  $transactions
-     * @return \Illuminate\Http\Response
-     */
     public function destroy(Transactions $transactions)
     {
         //

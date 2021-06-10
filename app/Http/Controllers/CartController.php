@@ -157,36 +157,17 @@ class CartController extends Controller
     }
 
 
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Carts  $cart
-     * @return \Illuminate\Http\Response
-     */
     public function show(Carts $cart)
     {
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Carts  $cart
-     * @return \Illuminate\Http\Response
-     */
     public function edit(Carts $cart)
     {
         //
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Carts  $cart
-     * @return \Illuminate\Http\Response
-     */
+
     public function update(Request $request, Carts $cart)
     {
         foreach ($request->id as $key => $value) {

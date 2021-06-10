@@ -30,7 +30,7 @@
                             </div>
                             <div class="widget-summary-col">
                                 <div class="summary">
-                                    <h4 class="title">Product Terdaftar</h4>
+                                    <h4 class="title">Product </h4>
                                     <div class="info">
                                         <strong class="amount">{{$products}}</strong>
                                     </div>

@@ -63,44 +63,21 @@ class TransactionDetailsController extends Controller
         return view('detail-transaksi', compact('transaksi', 'transaksidetails', 'carts', 'total'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
         //
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
         //
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\TransactionDetails  $transactionDetails
-     * @return \Illuminate\Http\Response
-     */
     public function show(TransactionDetails $transactionDetails)
     {
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\TransactionDetails  $transactionDetails
-     * @return \Illuminate\Http\Response
-     */
     public function edit(TransactionDetails $transactionDetails)
     {
         //
